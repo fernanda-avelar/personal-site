@@ -134,14 +134,7 @@ const Header = ({ blog_page }) => {
                         <a href="https://github.com/fernanda-avelar">
                           <i className="fab fa-github"></i>
                         </a>
-                        <a
-                          href=""
-                          className="d-blcok d-xl-none"
-                          data-bs-toggle="modal"
-                          data-bs-target="#connectModal"
-                        >
-                          <i className="fas fa-wallet"></i>
-                        </a>
+
                       </li>
                       <li className="header-btn">
                         <a href='/assets/Fernanda_Avelar_Goncalves_CV.pdf'>
