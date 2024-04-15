@@ -42,7 +42,7 @@ const Footer = () => {
                 <div className="footer-logo">
                   <Link to="/">
                     <img
-                      src="/assets/img/logo/f2.PNG"
+                      src="/assets/img/logo/f.PNG"
                       width="200"
                       alt="Nerko"
                     />
