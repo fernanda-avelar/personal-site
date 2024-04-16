@@ -137,7 +137,7 @@ const Header = ({ blog_page }) => {
 
                       </li>
                       <li className="header-btn">
-                        <a href='/assets/Fernanda_Avelar_Goncalves_CV.pdf'>
+                        <a href='/assets/Fernanda_Avelar_Goncalves_CV.pdf' download>
                           <button
                             className="btn border-btn"
 
