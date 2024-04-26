@@ -52,7 +52,7 @@ const Footer = () => {
                   Fernanda Avelar Gonçalves
                 </p> */}
                 <a
-                  href="/assets/Fernanda_Avelar_Goncalves_CV.pdf"
+                  href="/assets/Fernanda_Avelar_Goncalves_CV.pdf" download
                   target="_blank"
                   className="banner__btn btn gradient-btn gradient-btn-2 scroll-to-target"
                 >
