@@ -13,13 +13,23 @@ function SingleFactItem({ count, meta }) {
 
 const FactArea = () => {
 
+  const calculateDays = () => {
+    const startDate = new Date("2018-01-01");
+    const currentDate = new Date();
+    const timeDifference = currentDate - startDate;
+    const daysDifference = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+    return `${daysDifference}`;
+  };
+
+  const coffeeCups = calculateDays() * 2.37051;
+
   const data = {
-    countOne: "4,000+",
+    countOne: `+${Math.ceil(coffeeCups)}`,
     countOneTitle: "Cups of coffee",
     countTwo: "6 years",
     countTwoTitle: "Experience",
-    countThree: "2,000+",
-    countThreeTitle: "Bug fixed",
+    countThree: `x${calculateDays()}`,
+    countThreeTitle: "Days working",
   }
 
   return (
@@ -28,7 +38,7 @@ const FactArea = () => {
         <div className="fact__items-wrap position-relative">
           <img
             className="shape"
-            src="/assets/img/objects/bitcoin-01.png"
+            src="/assets/img/objects/circle-01.png"
             width="32"
             alt="shape"
             style={{ bottom: "-32%", left: "30%" }}
@@ -53,10 +63,10 @@ const FactArea = () => {
               count={data.countTwo}
               meta={data.countTwoTitle}
             />
-            {/* <SingleFactItem
+            <SingleFactItem
               count={data.countThree}
               meta={data.countThreeTitle}
-            /> */}
+            />
           </div>
         </div>
       </div>

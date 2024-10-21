@@ -26,7 +26,10 @@ const RoadMapAreaTwo = () => {
   const title = 'Professional Experiences'
   const data = [
     {
-      step: '2023', title: 'Front End Engineer', company: 'Hexis', desc: 'Designing and developing user interfaces with React components. Implementing state management and handling data flow in React applications.'
+      step: '2024', title: 'Senior Front End Engineer', company: 'Inscale', desc: 'Lead the development of the front-end architecture, ensuring the best practices and the best performance of the applications. Development of WEB applications with React and contribuition to the development of the company\'s design system.'
+    },
+    {
+      step: '2023 - 2024', title: 'Front End Engineer', company: 'Hexis', desc: 'Designing and developing user interfaces with React components. Implementing state management and handling data flow in React applications.'
     },
     { step: '2021 - 2023', title: 'Front End Developer + UI Designer', company: 'Aubay', desc: 'Used understanding technical fundamentals to promote better component lifecycle practices. Application prototyping from Figma and validation. Unit Tests. UX Designer with focus on user-centered design principles.' },
     { step: '2020 - 2021', title: 'Front End Developer', company: 'Dextra', desc: 'Development of WEB applications using React. Focus in the user experience and process optimization.' },

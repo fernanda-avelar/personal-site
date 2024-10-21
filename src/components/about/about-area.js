@@ -10,7 +10,7 @@ const AboutArea = () => {
         >
           <div className="col-xl-8 col-lg-10">
             <div className="section__title text-center title-mb-80">
-              <h2 className="title">About the platform</h2>
+              <h2 className="title">Who is she?</h2>
             </div>
           </div>
         </div>
@@ -21,7 +21,7 @@ const AboutArea = () => {
                 className="about__img"
                 data-anime="opacity:[0, 1]; translateX:[-24, 0]; onview: -250; delay: 200;"
               >
-                <img src="/assets/img/others/features-03.png" alt="img" />
+                <img src="/assets/img/objects/color.png" alt="img" />
               </div>
             </div>
             <div className="col-lg-6">
@@ -31,32 +31,33 @@ const AboutArea = () => {
               >
                 <div className="section__title text-start">
                   <span className="sub-title tg-text-gradient">
-                    Create and Invest
+                    Design AND build
                   </span>
                   <h2 className="title">
-                    Create your <br /> own NFT
+                    Senior <br /> Frontend Developer
                   </h2>
                 </div>
                 <p>
-                  Multiple Chains, One Home. Stack up all your NFTs from across
-                  blockchains.
+                  Specialized in building scalable, high-performance web applications.
+                  Strong background in UI/UX design, collaborating with cross-functional teams to deliver user-friendly and responsive interfaces.
                 </p>
                 <div className="about__facts-list">
                   <div className="about__fact-item">
-                    <h3 className="count">4,500+</h3>
+                    <h3 className="count">x{Math.floor(Math.random() * 100) + 1}</h3>
                     <p>
-                      Collections Indexed <br /> every 5mins.
+                      Googled "how to center a div"
                     </p>
                   </div>
                   <div className="about__fact-item">
-                    <h3 className="count">2.5x</h3>
-                    <p>Difference in Floor & Estimated NFT Value</p>
+                    <h3 className="count">{(Math.random() * 0.89 + 0.1).toFixed(2)}s</h3>
+                    <p>To find a missing semi-colon</p>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
-          <div className="row align-items-center">
+          {/* <div className="row align-items-center">
             <div className="col-lg-6">
               <div
                 className="about__img"
@@ -77,9 +78,8 @@ const AboutArea = () => {
                   <h2 className="title">Multiple Chains, One Home</h2>
                 </div>
                 <p>
-                  We make it easy to Discover, Invest and manage all your NFTs
-                  at one place, looked up one of the more obscure.Find the right
-                  NFT collections to buy within the platform.
+                  With proficiency in modern tools, I ensure code quality, performance optimization, and maintainable component-driven development.
+                  My expertise extends across diverse environments, utilizing testing frameworks alongside CI/CD practices to streamline development processes.
                 </p>
                 <div className="about__facts-list">
                   <div className="about__icon-box">
@@ -97,7 +97,7 @@ const AboutArea = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

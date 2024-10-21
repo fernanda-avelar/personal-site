@@ -23,10 +23,12 @@ const HomePage = () => {
     <Layout>
       <GradientPosition />
       <HeroAreaThree />
-      {/* <SectionDivider /> */}
       {/* FUN */}
       <FactArea />
+      <SectionDivider />
       {/* About me */}
+      <AboutArea />
+      {/* About me - extra */}
       <MintArea />
       <SectionDivider />
       {/* Education */}
@@ -34,7 +36,6 @@ const HomePage = () => {
       <SectionDivider />
       {/* Professional Experiences  */}
       <RoadMapAreaTwo />
-      <SectionDivider />
     </Layout>
   )
 }

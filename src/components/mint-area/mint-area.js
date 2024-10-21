@@ -55,7 +55,7 @@ const MintArea = () => {
   return (
     <section id="minting" className="mint-area section-pt-80 section-pb-50">
       <div className="container">
-        <div
+        {/* <div
           className="row justify-content-center"
           // ref={animate_1}
           // style={{ opacity: "0" }}
@@ -66,7 +66,7 @@ const MintArea = () => {
               <h2 className="title">{data.title}</h2>
             </div>
           </div>
-        </div>
+        </div> */}
         <div
           className="mint__lits-wrapper"
           // ref={animate_2}
@@ -103,7 +103,7 @@ const MintArea = () => {
             // style={{ opacity: "0" }}
             data-anime="targets: > *; opacity:[0, 1]; translateY:[24, 0]; onview: -250; delay: anime.stagger(100);"
           >
-            <SingleMintItem
+            {/* <SingleMintItem
               icon="01"
               title={data.items[0].title}
               subtitle={data.items[0].subtitle}
@@ -112,7 +112,7 @@ const MintArea = () => {
               icon="02"
               title={data.items[1].title}
               subtitle={data.items[1].subtitle}
-            />
+            /> */}
             <SingleMintItem
               icon="03"
               title={data.items[2].title}

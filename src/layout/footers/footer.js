@@ -1,6 +1,7 @@
 import { Link } from "gatsby";
 import React from "react";
 import { animateScroll as scroll } from 'react-scroll';
+import CtaArea from "../../components/cta/cta-area";
 
 // handle scroll to top
 const handleScrollToTop = () => {
@@ -12,13 +13,13 @@ const Footer = () => {
     <footer className="footer-area section-py-80">
       <div className="container">
         <div className="footer__wrapper">
-          <img
+          {/* <img
             src="/assets/img/objects/ethereum-01.png"
             width="32"
             alt="object"
             style={{ top: '32%', left: '16%' }}
-          />
-          <img
+          /> */}
+          {/* <img
             src="/assets/img/objects/x.png"
             width="16"
             alt="object"
@@ -35,9 +36,9 @@ const Footer = () => {
             width="24"
             alt="object"
             style={{ bottom: '-8%', left: '30%' }}
-          />
+          /> */}
           <div className="row justify-content-center">
-            <div className="col-xl-5 col-lg-7 col-md-9 col-sm-11">
+            {/* <div className="col-xl-5 col-lg-7 col-md-9 col-sm-11">
               <div className="footer__info text-center">
                 <div className="footer-logo">
                   <Link to="/">
@@ -48,27 +49,10 @@ const Footer = () => {
                     />
                   </Link>
                 </div>
-                {/* <p>
-                  Fernanda Avelar Gonçalves
-                </p> */}
-                <a
-                  href="/assets/Fernanda_Avelar_Goncalves_CV.pdf" download
-                  target="_blank"
-                  className="banner__btn btn gradient-btn gradient-btn-2 scroll-to-target"
-                >
-                  <span>Download CV</span>
-                  <i className="unicon-arrow-up-right"></i>
-                </a>
-                <ul className="list-wrap footer__social">
-                  <a href="https://www.linkedin.com/in/fernanda-avelar/" className="d-none d-sm-block">
-                    <i className="fab fa-linkedin"></i>
-                  </a>
-                  <a href="https://github.com/fernanda-avelar">
-                    <i className="fab fa-github"></i>
-                  </a>
-                </ul>
+
               </div>
-            </div>
+            </div> */}
+            <CtaArea />
           </div>
           <div className="copyright__wrapper">
             <div className="row">
